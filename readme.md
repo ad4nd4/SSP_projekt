@@ -15,7 +15,7 @@ Budowane na Linux Mint:
 
 # Topologia
 
->todo
+![Rysunek wstępnej topologii](./docs/sdn_topo1.png)
 
 # Skład zespołu
 - Agnieszka Dańda
