@@ -2,7 +2,7 @@
 
 # Opis
 
->TODO -- tu wrzucić opis projektu
+Celem projektu jest wdrożenie sterownika implementującego firewall dynamicznie zarządzającego regułami OpenFlow, ze szczególnym uwzględnieniem ataków TCP (np. klasyczny `SYN_ACK`). Podstawowy scenariusz będzie zakładać topologię z niegroźnymi stacjami, jednym atakującym, dwoma przełącznikami i serwerem. Zadaniem firewalla będzie monitorowanie sesji TCP i reakcja na podejrzany lub widocznie groźny ruch.
 
 Korzystamy z `os-ken` (3.1.1) jako kontrolera SDN (Python), a z `mininet` jako emulatora sieci (również Python) -- jego zostawiamy na poziomie systemu hosta.
 
