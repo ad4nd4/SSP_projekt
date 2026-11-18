@@ -2,7 +2,16 @@
 
 # Opis
 
->todo
+>TODO -- tu wrzucić opis projektu
+
+Korzystamy z `os-ken` (3.1.1) jako kontrolera SDN (Python), a z `mininet` jako emulatora sieci (również Python) -- jego zostawiamy na poziomie systemu hosta.
+
+# Uruchomienie
+Budowane na Linux Mint:
+1. Jednorazowo: `sudo apt update && sudo apt install -y mininet openvswitch-switch python3-venv`
+2. Każdorazowo, gdy brakuje venva: `cd ./src && ./setup.sh`
+3. Do odpalenia kontrolera *osken*: `./run_controller.sh </path/to/controller.py>` -- należy to zrobić przed odpaleniem emulacji sieci, w jednym terminalu (lub z `&`)
+4. Do odpalenia emulatora *mininet* z topologią: `./run_topo.sh` \[wymaga sudo] -- warto odpalić w drugim terminalu
 
 # Topologia
 
